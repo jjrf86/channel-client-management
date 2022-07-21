@@ -4,13 +4,11 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bci.channel.client.management.business.ClientManagementService;
 import com.bci.channel.client.management.dao.ClientRepository;
 import com.bci.channel.client.management.dao.PhoneRepository;
-//import com.bci.channel.client.management.dao.PhoneRepository;
 import com.bci.channel.client.management.entity.Client;
 import com.bci.channel.client.management.entity.Phone;
 import com.bci.channel.client.management.model.api.ClientRequest;
